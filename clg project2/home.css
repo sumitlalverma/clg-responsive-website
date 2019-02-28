@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background:url(wood.jpg);
+}
+.welcome{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Flamenco', cursive;
+	overflow-x: hidden;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color:blue;
+}
+.text{
+	text-align: center;
+	font-size: 1em;
+	font-family: all;
+	overflow-x: hidden;
+	font-weight: lighter;
+	text-transform: lowercase;
+	color:blue;
+}
+.container{
+	background-color: #ccc;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+.logout{
+	position: absolute;
+	right: 10%;
+	top: 7%;
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color:0.2s,border:0.2s,color:0.2s;
+	transition: 1s;
+	color: #fff;
+	background-color:#bc2f2c;
+}
+.logout:hover{
+	background-color: #fc2b1c;
+	color:#fff;
+}

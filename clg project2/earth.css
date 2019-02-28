@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.sharp{
+	position: absolute;
+	top: 55%;
+	right: 0%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 300px;
+	border-radius:50%;
+	box-shadow: 0 0 0 15px #03a9f4;
+	box-sizing: border-box;
+	transition: .5s;
+}
+.sharp:hover{
+	border-radius:0%;
+}
+.sharp:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #03a9f4;
+	transform: rotate(-45deg);
+
+}
+.sharp p{
+	color: #fff;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: center;
+    position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+	transition: .5s;
+	z-index: 8;
+	font-size: 25px;
+	color: black;
+}
+.sharp:hover p{
+	box-shadow: 0 0 50px rgba(0,0,0,.5);
+}
+@media(max-width:1350px){
+	.sharp{ 
+     width: 250px;
+	height: 250px;
+	 }
+	 .sharp p{
+	 	font-size: 20px;
+	 }
+}
+@media(max-width:1100px){
+	.sharp{ 
+     width: 150px;
+	height: 150px;
+	top: 35%;
+	 }
+	 .sharp p{
+	 	font-size: 15px;
+	 	top: -4%;
+	 }
+}
+
+}
+@media(max-width:780px){
+	.sharp{ 
+     width: 150px;
+	height: 150px;
+	top: 20%;
+	 }
+	 .sharp p{
+	 	font-size: 15px;
+	 }
+}
+@media(max-width:480px){
+	.sharp{ 
+     width: 100px;
+	height: 100px;
+	top: 65%;
+	 }
+	 .sharp p{
+	 	font-size: 10px;
+	 	top: -4%;
+	 }
+	 .sign-up input:hover{
+     background-color: #ccc;
+}
+	 /*
+<div class="dropdown">
+				  		<a href="#">Computer Engg.</a><hr>
+				  		<a href="#">Electroics</a><hr>
+				  		<a href="#">Food Technology</a><hr>
+				  		<a href="#">food</a><hr>
+				  		<a href="#">Mechanical</a><hr>
+				  		<a href="#">Pharmacy</a><hr>
+				  		
+
+				  	</div>*/
+
